@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.header {
+    width: 30%;
+    height: 10%;
+    background-color: #8BB03B;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+h1 {
+    justify-content: left;
+}
+
+.headtitle {
+    color: #FFFDFE;
+}
+
+.headerdiv {
+    display: flex;
+    justify-content: center;
+}
+
+#networkdiv {
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    width: 75%;
+    border: 2px 2px 2px 2px;
+    border-color: tomato;
+}
+
+circle{
+    fill-opacity: .9;
+}
+
+line{
+    stroke:#BB317F;
+    stroke-opacity:0.6;
+}
+
+.tt {
+    display: flex;
+    justify-content: center;
+    color: black;
+    height: 4vh;
+    font-size: 3vh;
+}
+
+.bform {
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    width: 60%;
+}
+
+.rangeclass {
+    width: 50%;
+}
